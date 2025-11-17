@@ -12,7 +12,7 @@ st.write("Upload a transcript and generate a detailed summary with key points")
 @st.cache_resource
 def load_prompt():
     try:
-        with open("prompt.md", "r") as f:
+        with open("/home/sangeethagsk/agent_bootcamp/QnAGenerator/src/qnagenerator/prompt.md", "r") as f:
             return f.read()
     except FileNotFoundError:
         st.error("❌ prompt.md file not found!")
