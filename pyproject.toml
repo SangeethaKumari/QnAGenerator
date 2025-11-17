@@ -5,7 +5,13 @@ description = "question and answer generator from webinar trnscript"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "document>=1.0",
+    "docx>=0.2.4",
+    "ollama>=0.6.1",
+    "pypdf2>=3.0.1",
+    "streamlit>=1.51.0",
     "svlearn-bootcamp>=0.1.7",
+    "transformers>=4.57.1",
 ]
 
 [build-system]
